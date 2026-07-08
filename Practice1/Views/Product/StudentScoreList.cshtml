@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "StudentScoreList";
+}
+<table class="table">
+    <tr><th>ឈ្មោះ</th><th>សរុប</th><th>និទ្ទេស</th></tr>
+    @foreach (var s in Model) {
+        var cls = s.GetGrade() == "F" ? "table-danger" : "";
+        <tr class="@cls">
+            <td>@s.Name</td><td>@s.GetTotal()</td>
+            <td><span class="badge bg-primary">@s.GetGrade()</span></td>
+        </tr>
+    }
+</table>

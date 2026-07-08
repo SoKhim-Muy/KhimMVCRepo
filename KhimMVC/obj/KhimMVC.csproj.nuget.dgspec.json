@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASPdotNet\\KhimMVC\\KhimMVC.csproj": {}
+    "D:\\ASPdotNet\\KhimMVCRepo\\KhimMVC\\KhimMVC.csproj": {}
   },
   "projects": {
-    "D:\\ASPdotNet\\KhimMVC\\KhimMVC.csproj": {
+    "D:\\ASPdotNet\\KhimMVCRepo\\KhimMVC\\KhimMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASPdotNet\\KhimMVC\\KhimMVC.csproj",
+        "projectUniqueName": "D:\\ASPdotNet\\KhimMVCRepo\\KhimMVC\\KhimMVC.csproj",
         "projectName": "KhimMVC",
-        "projectPath": "D:\\ASPdotNet\\KhimMVC\\KhimMVC.csproj",
+        "projectPath": "D:\\ASPdotNet\\KhimMVCRepo\\KhimMVC\\KhimMVC.csproj",
         "packagesPath": "C:\\Users\\ALH2\\.nuget\\packages\\",
-        "outputPath": "D:\\ASPdotNet\\KhimMVC\\obj\\",
+        "outputPath": "D:\\ASPdotNet\\KhimMVCRepo\\KhimMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

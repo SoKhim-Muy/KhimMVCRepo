@@ -1,0 +1,9 @@
+@{
+    ViewData["Title"] = "CheckGrade";
+}
+<h4>ពិន្ទុរបស់អ្នក៖ @ViewBag.Score</h4>
+@if (ViewBag.Score >= 50) {
+    <div class="alert alert-success">សូមអបអរសាទរ! អ្នកបានប្រឡងជាប់។</div>
+} else {
+    <div class="alert alert-danger">សោកស្តាយ! អ្នកបានប្រឡងធ្លាក់។</div>
+}

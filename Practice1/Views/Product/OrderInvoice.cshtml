@@ -1,0 +1,15 @@
+@{
+    ViewData["Title"] = "OrderInvoice";
+}
+<div class="card border-primary">
+    <div class="card-body">
+        <h3 class="text-primary">វិក្កយបត្រ៖ #@Model.OrderId</h3>
+        <p>កាលបរិច្ឆេទ៖ @Model.OrderDate.ToString("dd-MM-yyyy HH:mm")</p>
+        <h5>បញ្ជីមុខទំនិញ៖</h5>
+        <ul class="list-group">
+            @foreach (var item in Model.Items) {
+                <li class="list-group-item">@item</li>
+            }
+        </ul>
+    </div>
+</div>

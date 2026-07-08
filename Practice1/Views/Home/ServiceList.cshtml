@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "ServiceList";
+}
+<table class="table">
+    <tr><th>ល.រ</th><th>សេវាកម្ម</th></tr>
+    @{ int i = 1; }
+    @foreach (var s in ViewBag.Services) {
+        <tr><td>@(i++)</td><td>@s</td></tr>
+    }
+</table>
