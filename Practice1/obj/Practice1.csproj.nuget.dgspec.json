@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj": {}
+    "D:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj": {}
   },
   "projects": {
-    "d:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj": {
+    "D:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj",
+        "projectUniqueName": "D:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj",
         "projectName": "Practice1",
-        "projectPath": "d:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj",
+        "projectPath": "D:\\ASPdotNet\\KhimMVCRepo\\Practice1\\Practice1.csproj",
         "packagesPath": "C:\\Users\\ALH2\\.nuget\\packages\\",
-        "outputPath": "d:\\ASPdotNet\\KhimMVCRepo\\Practice1\\obj\\",
+        "outputPath": "D:\\ASPdotNet\\KhimMVCRepo\\Practice1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

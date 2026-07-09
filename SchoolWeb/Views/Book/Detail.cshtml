@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Detail";
+}
+@model SchoolApp.Models.Book
+<div class="card shadow" style="width: 18rem; margin: 20px;">
+    <div class="card-header bg-success text-white">
+        ព័ត៌មានសៀវភៅលេខ #@Model.Id
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">ចំណងជើង៖ @Model.Title</h5>
+        <p class="card-text text-danger font-weight-bold">តម្លៃ៖ $@Model.Price</p>
+    </div>
+</div>

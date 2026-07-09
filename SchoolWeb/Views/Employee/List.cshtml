@@ -1,0 +1,18 @@
+@{
+    ViewData["Title"] = "List";
+}
+<h3>បញ្ជីឈ្មោះបុគ្គលិកសរុប</h3>
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr><th>ឈ្មោះបុគ្គលិក</th><th>តួនាទី</th></tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Name</td>
+                <td>@emp.Position</td>
+            </tr>
+        }
+    </tbody>
+</table>
