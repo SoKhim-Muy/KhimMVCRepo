@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KhimMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+256041ac27f90b2cf854f92c4d83fabc480fcc07")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bac4d939293161d345b3f6cca697b02ac46b995")]
 [assembly: System.Reflection.AssemblyProductAttribute("KhimMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KhimMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

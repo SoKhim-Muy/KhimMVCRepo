@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASPdotNet\\SchoolWeb\\SchoolWeb.csproj": {}
+    "D:\\ASPdotNet\\KhimMVCRepo\\SchoolWeb\\SchoolWeb.csproj": {}
   },
   "projects": {
-    "D:\\ASPdotNet\\SchoolWeb\\SchoolWeb.csproj": {
+    "D:\\ASPdotNet\\KhimMVCRepo\\SchoolWeb\\SchoolWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASPdotNet\\SchoolWeb\\SchoolWeb.csproj",
+        "projectUniqueName": "D:\\ASPdotNet\\KhimMVCRepo\\SchoolWeb\\SchoolWeb.csproj",
         "projectName": "SchoolWeb",
-        "projectPath": "D:\\ASPdotNet\\SchoolWeb\\SchoolWeb.csproj",
+        "projectPath": "D:\\ASPdotNet\\KhimMVCRepo\\SchoolWeb\\SchoolWeb.csproj",
         "packagesPath": "C:\\Users\\ALH2\\.nuget\\packages\\",
-        "outputPath": "D:\\ASPdotNet\\SchoolWeb\\obj\\",
+        "outputPath": "D:\\ASPdotNet\\KhimMVCRepo\\SchoolWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
