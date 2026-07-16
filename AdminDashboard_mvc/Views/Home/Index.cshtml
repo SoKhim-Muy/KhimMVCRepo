@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Dashboard Overview";
+    ViewData["ActivePage"] = "Dashboard";
+    Layout = "/Views/Shared/_AdminLayout.cshtml"; 
+}
+
+<div class="row g-4 mb-4">
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card p-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <h6 class="text-muted mb-1">Total Users</h6>
+                    <h3 class="mb-0 fw-bold">24,512</h3>
+                </div>
+                <div class="bg-primary bg-opacity-10 p-3 rounded text-primary"><i class="bi bi-people-fill fs-3"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card p-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <h6 class="text-muted mb-1">Monthly Sales</h6>
+                    <h3 class="mb-0 fw-bold">$48,250</h3>
+                </div>
+                <div class="bg-success bg-opacity-10 p-3 rounded text-success"><i class="bi bi-currency-dollar fs-3"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card p-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <h6 class="text-muted mb-1">Pending Invoices</h6>
+                    <h3 class="mb-0 fw-bold">42</h3>
+                </div>
+                <div class="bg-warning bg-opacity-10 p-3 rounded text-warning"><i class="bi bi-file-earmark-text-fill fs-3"></i></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-sm-6 col-xl-3">
+        <div class="card p-3">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <h6 class="text-muted mb-1">System Uptime</h6>
+                    <h3 class="mb-0 fw-bold">99.98%</h3>
+                </div>
+                <div class="bg-danger bg-opacity-10 p-3 rounded text-danger"><i class="bi bi-cpu-fill fs-3"></i></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card p-4">
+            <h5 class="card-title fw-bold mb-3"><i class="bi bi-graph-up text-primary me-2"></i>Platform Performance Growth</h5>
+            <div style="position: relative; height:350px; width:100%">
+                <canvas id="performanceChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts { 
+    <script>
+        const ctx = document.getElementById('performanceChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Monthly Platform Revenue ($)',
+                    data: [12000, 19000, 15000, 25000, 22000, 30000, 28000, 35000, 42000, 39000, 48000, 54000],
+                    borderColor: '#0ea5e9',
+                    backgroundColor: 'rgba(14, 165, 233, 0.1)',
+                    borderWidth: 3,
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false
+            }
+        });
+    </script>
+}
